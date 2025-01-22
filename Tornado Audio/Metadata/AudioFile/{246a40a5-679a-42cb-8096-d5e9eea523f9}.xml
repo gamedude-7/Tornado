@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{246a40a5-679a-42cb-8096-d5e9eea523f9}">
+		<property name="assetPath">
+			<value>Music/02 - Dj Kode Red - Come Lay With Me (Instrumental).wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>240</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e05b8f94-23e7-428b-bace-ff45f97257d8}</destination>
+		</relationship>
+	</object>
+</objects>

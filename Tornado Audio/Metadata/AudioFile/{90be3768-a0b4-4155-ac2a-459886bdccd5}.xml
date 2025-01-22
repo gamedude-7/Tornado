@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{90be3768-a0b4-4155-ac2a-459886bdccd5}">
+		<property name="assetPath">
+			<value>ROCKImpt_Short Rise, Granular Rocks Hit, Soft Crackles, Smooth Bass_Ocular Sounds_Cinematic Stone_The Cinematic Elements Collection.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>7.3836250000000003</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e05b8f94-23e7-428b-bace-ff45f97257d8}</destination>
+		</relationship>
+	</object>
+</objects>

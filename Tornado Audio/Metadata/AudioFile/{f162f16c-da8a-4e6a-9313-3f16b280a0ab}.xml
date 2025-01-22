@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f162f16c-da8a-4e6a-9313-3f16b280a0ab}">
+		<property name="assetPath">
+			<value>Tornado/TRNInt_Train Interior, Rumbling, Quiete, Passing Buildings, Noise, Loop_Ocular Sounds_Inside Transport_The Complete Ambiences Collection.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>30</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e05b8f94-23e7-428b-bace-ff45f97257d8}</destination>
+		</relationship>
+	</object>
+</objects>

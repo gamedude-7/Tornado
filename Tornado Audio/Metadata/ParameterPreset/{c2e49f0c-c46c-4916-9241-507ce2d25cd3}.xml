@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{c2e49f0c-c46c-4916-9241-507ce2d25cd3}">
+		<property name="name">
+			<value>Wind gust</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7cd3d821-e505-4620-8a91-9887df19fe48}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{1f513339-c3cd-4862-9be6-abc61ce8577c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{1f513339-c3cd-4862-9be6-abc61ce8577c}">
+		<property name="maximum">
+			<value>2000</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

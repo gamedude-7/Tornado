@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{4f189ba3-b588-4c6f-8b6f-145465108032}">
+		<property name="assetPath">
+			<value>Tornado/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e05b8f94-23e7-428b-bace-ff45f97257d8}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -244,8 +244,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../Downloads/Tornado-20250121T145726Z-001/Tornado/Tornado.fspro
-  sourceBankPath: ../../Downloads/Tornado-20250121T145726Z-001/Tornado/Build
+  sourceProjectPath: Tornado Audio/Tornado.fspro
+  sourceBankPath: Tornado Audio/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -269,6 +269,7 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - Music
   - Tornado
   BanksToLoad: []
   LiveUpdatePort: 9264
