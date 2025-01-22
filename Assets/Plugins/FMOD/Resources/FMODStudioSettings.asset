@@ -244,8 +244,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../Fmod files/Tornado/Tornado.fspro
-  sourceBankPath: ../../Fmod files/Tornado/Build
+  sourceProjectPath: ../../Downloads/Tornado-20250121T145726Z-001/Tornado/Tornado.fspro
+  sourceBankPath: ../../Downloads/Tornado-20250121T145726Z-001/Tornado/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
