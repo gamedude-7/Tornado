@@ -1541,6 +1541,9 @@ GameObject:
   - component: {fileID: 740285458}
   - component: {fileID: 740285459}
   - component: {fileID: 740285460}
+  - component: {fileID: 740285462}
+  - component: {fileID: 740285463}
+  - component: {fileID: 740285464}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -1751,7 +1754,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 740285453}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
@@ -1765,18 +1768,63 @@ MonoBehaviour:
       Data4: 278775753
     Path: event:/Wind/Tornado
   Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 0
+  EventPlayTrigger: 11
+  EventStopTrigger: 12
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   NonRigidbodyVelocity: 0
-  Params:
-  - Name: Wind gust
-    Value: 0
+  Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &740285462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740285453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &740285463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740285453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 7f1c14650e0dc184ca46569e47efb7a1, type: 2}
+--- !u!114 &740285464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740285453}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: ac5b9bea3e5324a45888e5397abb2567, type: 2}
 --- !u!1 &758928140 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5630956529258443345, guid: 8d84bc4971f5da14e97457257b5bbc23, type: 3}
@@ -1896,6 +1944,9 @@ GameObject:
   - component: {fileID: 811864953}
   - component: {fileID: 811864955}
   - component: {fileID: 811864954}
+  - component: {fileID: 811864957}
+  - component: {fileID: 811864956}
+  - component: {fileID: 811864958}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1969,6 +2020,52 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &811864956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811864952}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: eeb8b047d37fd434b905ea3c26473830, type: 2}
+--- !u!114 &811864957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811864952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &811864958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811864952}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!1 &821251151
 GameObject:
   m_ObjectHideFlags: 0
@@ -1983,6 +2080,7 @@ GameObject:
   - component: {fileID: 821251152}
   - component: {fileID: 821251156}
   - component: {fileID: 821251157}
+  - component: {fileID: 821251158}
   m_Layer: 0
   m_Name: Capsule (2)
   m_TagString: Box
@@ -2120,6 +2218,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   otherClip: {fileID: 8300000, guid: 06aa199533f1059428d728a451edd1e6, type: 3}
   audioSource: {fileID: 740285459}
+--- !u!114 &821251158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821251151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 312678785
+      Data2: 1217524798
+      Data3: -1730409579
+      Data4: 1744954609
+    Path: event:/Kill people/Vox 2
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &844081941 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3161953191746695256, guid: 8d84bc4971f5da14e97457257b5bbc23, type: 3}
@@ -2887,6 +3016,7 @@ GameObject:
   - component: {fileID: 1230112415}
   - component: {fileID: 1230112419}
   - component: {fileID: 1230112420}
+  - component: {fileID: 1230112421}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Box
@@ -3024,6 +3154,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   otherClip: {fileID: 8300000, guid: 06aa199533f1059428d728a451edd1e6, type: 3}
   audioSource: {fileID: 740285459}
+--- !u!114 &1230112421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230112414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 2142958228
+      Data2: 1214012833
+      Data3: -1382892364
+      Data4: 571150787
+    Path: event:/Kill people/Vox 4
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1309852212 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3542236269602756678, guid: 8d84bc4971f5da14e97457257b5bbc23, type: 3}
@@ -3244,6 +3405,66 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1906359706439820949, guid: 8d84bc4971f5da14e97457257b5bbc23, type: 3}
+--- !u!1 &1452742035
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1452742038}
+  - component: {fileID: 1452742037}
+  - component: {fileID: 1452742036}
+  m_Layer: 0
+  m_Name: VisualScripting SceneVariables
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1452742036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452742035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 765181c9ef4b24d32a4f7cbd2ef370dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1452742037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452742035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!4 &1452742038
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452742035}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1459522469 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -57707047182098160, guid: 8d84bc4971f5da14e97457257b5bbc23, type: 3}
@@ -8802,6 +9023,7 @@ GameObject:
   - component: {fileID: 1869137685}
   - component: {fileID: 1869137689}
   - component: {fileID: 1869137690}
+  - component: {fileID: 1869137691}
   m_Layer: 0
   m_Name: Capsule (3)
   m_TagString: Box
@@ -8938,6 +9160,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   otherClip: {fileID: 8300000, guid: 06aa199533f1059428d728a451edd1e6, type: 3}
   audioSource: {fileID: 740285459}
+--- !u!114 &1869137691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869137684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 486265107
+      Data2: 1151881216
+      Data3: 397738117
+      Data4: -1001045091
+    Path: event:/Kill people/Vox 3
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1891468592 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3752566066946856227, guid: 8d84bc4971f5da14e97457257b5bbc23, type: 3}
@@ -9030,8 +9283,11 @@ GameObject:
   - component: {fileID: 1922784365}
   - component: {fileID: 1922784364}
   - component: {fileID: 1922784363}
+  - component: {fileID: 1922784367}
+  - component: {fileID: 1922784366}
+  - component: {fileID: 1922784368}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: 'Music '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9044,7 +9300,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1922784362}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
@@ -9179,6 +9435,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1922784366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922784362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 079d1bad2bf57344fb2b88f6eecc3a62, type: 2}
+--- !u!114 &1922784367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922784362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &1922784368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922784362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 414511934
+      Data2: 1093334532
+      Data3: 1394584742
+      Data4: -846801988
+    Path: event:/Music/City fooley
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1937685167
 GameObject:
   m_ObjectHideFlags: 0
@@ -9193,6 +9511,7 @@ GameObject:
   - component: {fileID: 1937685168}
   - component: {fileID: 1937685172}
   - component: {fileID: 1937685173}
+  - component: {fileID: 1937685174}
   m_Layer: 0
   m_Name: Capsule (1)
   m_TagString: Box
@@ -9329,6 +9648,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   otherClip: {fileID: 8300000, guid: 06aa199533f1059428d728a451edd1e6, type: 3}
   audioSource: {fileID: 740285459}
+--- !u!114 &1937685174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937685167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1189828923
+      Data2: 1189747917
+      Data3: 2014808724
+      Data4: 2007761599
+    Path: event:/Kill people/Vox 1
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1959977191 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8969353336669229926, guid: 8d84bc4971f5da14e97457257b5bbc23, type: 3}
@@ -9487,3 +9837,4 @@ SceneRoots:
   - {fileID: 574288415}
   - {fileID: 1553520709}
   - {fileID: 1922784365}
+  - {fileID: 1452742038}

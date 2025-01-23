@@ -269,8 +269,11 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - Bg foley
+  - Kill people
   - Music
   - Tornado
+  - Tornado 3d
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

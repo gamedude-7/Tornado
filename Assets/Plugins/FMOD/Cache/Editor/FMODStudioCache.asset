@@ -24,6 +24,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-8524126123770915260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Tornado 3d/Wind gust
+  m_EditorClassIdentifier: 
+  Name: Wind gust
+  StudioPath: 
+  Min: 0
+  Max: 2000
+  Default: 0
+  ID:
+    data1: 2285613889
+    data2: 1312964718
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-7301047996258772475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,10 +63,10 @@ MonoBehaviour:
   Path: Tornado Audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638730970668698694
+  lastModified: 638731846237308397
   FileSizes:
   - Name: Desktop
-    Value: 1306
+    Value: 1452
   Exists: 1
 --- !u!114 &-5924146412463198877
 MonoBehaviour:
@@ -59,11 +83,38 @@ MonoBehaviour:
   Path: Tornado Audio/Build/Desktop/Tornado.bank
   Name: Tornado
   StudioPath: bank:/Tornado
-  lastModified: 638730970681828141
+  lastModified: 638731753360715507
   FileSizes:
   - Name: Desktop
     Value: 2446560
   Exists: 1
+--- !u!114 &-5918600165049437130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Kill people/Vox 1
+  m_EditorClassIdentifier: 
+  Path: event:/Kill people/Vox 1
+  Guid:
+    Data1: -1189828923
+    Data2: 1189747917
+    Data3: 2014808724
+    Data4: 2007761599
+  Banks:
+  - {fileID: -3140294515108153494}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3103
 --- !u!114 &-4933665005460626640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79,10 +130,30 @@ MonoBehaviour:
   Path: Tornado Audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638730970668718667
+  lastModified: 638731846237341264
   FileSizes:
   - Name: Desktop
-    Value: 1056
+    Value: 1538
+  Exists: 1
+--- !u!114 &-3140294515108153494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Kill people.bank
+  m_EditorClassIdentifier: 
+  Path: Tornado Audio/Build/Desktop/Kill people.bank
+  Name: Kill people
+  StudioPath: bank:/Sound fx/Kill people
+  lastModified: 638731846238497268
+  FileSizes:
+  - Name: Desktop
+    Value: 121504
   Exists: 1
 --- !u!114 &-76461780624904315
 MonoBehaviour:
@@ -129,16 +200,108 @@ MonoBehaviour:
   - {fileID: -7301047996258772475}
   - {fileID: -5924146412463198877}
   - {fileID: 1583750946953632624}
+  - {fileID: 4022419580782493691}
+  - {fileID: 5544592315756952928}
+  - {fileID: -3140294515108153494}
   EditorEvents:
   - {fileID: -76461780624904315}
   - {fileID: 3503765490016389355}
+  - {fileID: 1336585891829612611}
+  - {fileID: 3803897399708477120}
+  - {fileID: 1733285926843225074}
+  - {fileID: 6715887828638702312}
+  - {fileID: 25786525013061203}
+  - {fileID: 180732409319990835}
+  - {fileID: -5918600165049437130}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7301047996258772475}
   StringsBanks:
   - {fileID: -4933665005460626640}
-  cacheTime: 638730970726287519
+  cacheTime: 638731846239109274
   cacheVersion: 131622
+--- !u!114 &25786525013061203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Kill people/Vox 2
+  m_EditorClassIdentifier: 
+  Path: event:/Kill people/Vox 2
+  Guid:
+    Data1: 312678785
+    Data2: 1217524798
+    Data3: -1730409579
+    Data4: 1744954609
+  Banks:
+  - {fileID: -3140294515108153494}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3103
+--- !u!114 &180732409319990835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Kill people/Vox 4
+  m_EditorClassIdentifier: 
+  Path: event:/Kill people/Vox 4
+  Guid:
+    Data1: 2142958228
+    Data2: 1214012833
+    Data3: -1382892364
+    Data4: 571150787
+  Banks:
+  - {fileID: -3140294515108153494}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3103
+--- !u!114 &1336585891829612611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Wind/Tornado 3d
+  m_EditorClassIdentifier: 
+  Path: event:/Wind/Tornado 3d
+  Guid:
+    Data1: -345337760
+    Data2: 1274912315
+    Data3: 1944161946
+    Data4: 1122290561
+  Banks:
+  - {fileID: 4022419580782493691}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8524126123770915260}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &1583750946953632624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,11 +317,38 @@ MonoBehaviour:
   Path: Tornado Audio/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music/Music
-  lastModified: 638730970726287519
+  lastModified: 638731846238873137
   FileSizes:
   - Name: Desktop
     Value: 3151776
   Exists: 1
+--- !u!114 &1733285926843225074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Kill people/Vox 3
+  m_EditorClassIdentifier: 
+  Path: event:/Kill people/Vox 3
+  Guid:
+    Data1: 486265107
+    Data2: 1151881216
+    Data3: 397738117
+    Data4: -1001045091
+  Banks:
+  - {fileID: -3140294515108153494}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3103
 --- !u!114 &3503765490016389355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,3 +376,97 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 240000
+--- !u!114 &3803897399708477120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/City fooley
+  m_EditorClassIdentifier: 
+  Path: event:/Music/City fooley
+  Guid:
+    Data1: 414511934
+    Data2: 1093334532
+    Data3: 1394584742
+    Data4: -846801988
+  Banks:
+  - {fileID: 5544592315756952928}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70000
+--- !u!114 &4022419580782493691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Tornado 3d.bank
+  m_EditorClassIdentifier: 
+  Path: Tornado Audio/Build/Desktop/Tornado 3d.bank
+  Name: Tornado 3d
+  StudioPath: bank:/Tornado 3d/Tornado 3d
+  lastModified: 638731753361115347
+  FileSizes:
+  - Name: Desktop
+    Value: 2446848
+  Exists: 1
+--- !u!114 &5544592315756952928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Bg foley.bank
+  m_EditorClassIdentifier: 
+  Path: Tornado Audio/Build/Desktop/Bg foley.bank
+  Name: Bg foley
+  StudioPath: bank:/Music/Bg foley
+  lastModified: 638731846239109274
+  FileSizes:
+  - Name: Desktop
+    Value: 893888
+  Exists: 1
+--- !u!114 &6715887828638702312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Kill people/Vox 5
+  m_EditorClassIdentifier: 
+  Path: event:/Kill people/Vox 5
+  Guid:
+    Data1: -1256741773
+    Data2: 1321563345
+    Data3: 295161787
+    Data4: -567614952
+  Banks:
+  - {fileID: -3140294515108153494}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3103
