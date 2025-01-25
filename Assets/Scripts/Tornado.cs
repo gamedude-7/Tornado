@@ -50,6 +50,7 @@ public class Tornado : MonoBehaviour
     void Start()
     {
         insideTornado = false;
+        
     }
 
     // Update is called once per frame

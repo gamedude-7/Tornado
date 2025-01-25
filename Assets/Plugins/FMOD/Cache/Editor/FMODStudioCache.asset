@@ -39,7 +39,11 @@ MonoBehaviour:
   Path: Tornado Audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
+<<<<<<< Updated upstream
   lastModified: 638730970668698694
+=======
+  lastModified: 638732538994699586
+>>>>>>> Stashed changes
   FileSizes:
   - Name: Desktop
     Value: 1306
@@ -59,7 +63,11 @@ MonoBehaviour:
   Path: Tornado Audio/Build/Desktop/Tornado.bank
   Name: Tornado
   StudioPath: bank:/Tornado
+<<<<<<< Updated upstream
   lastModified: 638730970681828141
+=======
+  lastModified: 638732538995109587
+>>>>>>> Stashed changes
   FileSizes:
   - Name: Desktop
     Value: 2446560
@@ -79,10 +87,37 @@ MonoBehaviour:
   Path: Tornado Audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
+<<<<<<< Updated upstream
   lastModified: 638730970668718667
   FileSizes:
   - Name: Desktop
     Value: 1056
+=======
+  lastModified: 638732538994699586
+  FileSizes:
+  - Name: Desktop
+    Value: 1538
+  Exists: 1
+--- !u!114 &-3140294515108153494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Kill people.bank
+  m_EditorClassIdentifier: 
+  Path: Tornado Audio/Build/Desktop/Kill people.bank
+  Name: Kill people
+  StudioPath: bank:/Sound fx/Kill people
+  lastModified: 638732538994699586
+  FileSizes:
+  - Name: Desktop
+    Value: 121504
+>>>>>>> Stashed changes
   Exists: 1
 --- !u!114 &-76461780624904315
 MonoBehaviour:
@@ -137,7 +172,11 @@ MonoBehaviour:
   - {fileID: -7301047996258772475}
   StringsBanks:
   - {fileID: -4933665005460626640}
+<<<<<<< Updated upstream
   cacheTime: 638730970726287519
+=======
+  cacheTime: 638732538995109587
+>>>>>>> Stashed changes
   cacheVersion: 131622
 --- !u!114 &1583750946953632624
 MonoBehaviour:
@@ -154,7 +193,11 @@ MonoBehaviour:
   Path: Tornado Audio/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music/Music
+<<<<<<< Updated upstream
   lastModified: 638730970726287519
+=======
+  lastModified: 638732538994909582
+>>>>>>> Stashed changes
   FileSizes:
   - Name: Desktop
     Value: 3151776
@@ -186,3 +229,100 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 240000
+<<<<<<< Updated upstream
+=======
+--- !u!114 &3803897399708477120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/City fooley
+  m_EditorClassIdentifier: 
+  Path: event:/Music/City fooley
+  Guid:
+    Data1: 414511934
+    Data2: 1093334532
+    Data3: 1394584742
+    Data4: -846801988
+  Banks:
+  - {fileID: 5544592315756952928}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70000
+--- !u!114 &4022419580782493691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Tornado 3d.bank
+  m_EditorClassIdentifier: 
+  Path: Tornado Audio/Build/Desktop/Tornado 3d.bank
+  Name: Tornado 3d
+  StudioPath: bank:/Tornado 3d/Tornado 3d
+  lastModified: 638732538995039583
+  FileSizes:
+  - Name: Desktop
+    Value: 2446848
+  Exists: 1
+--- !u!114 &5544592315756952928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Bg foley.bank
+  m_EditorClassIdentifier: 
+  Path: Tornado Audio/Build/Desktop/Bg foley.bank
+  Name: Bg foley
+  StudioPath: bank:/Music/Bg foley
+  lastModified: 638732538994689582
+  FileSizes:
+  - Name: Desktop
+    Value: 893888
+  Exists: 1
+--- !u!114 &6715887828638702312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Kill people/Vox 5
+  m_EditorClassIdentifier: 
+  Path: event:/Kill people/Vox 5
+  Guid:
+    Data1: -1256741773
+    Data2: 1321563345
+    Data3: 295161787
+    Data4: -567614952
+  Banks:
+  - {fileID: -3140294515108153494}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3103
+>>>>>>> Stashed changes

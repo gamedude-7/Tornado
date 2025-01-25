@@ -15,8 +15,11 @@ public class PlayerMovement : MonoBehaviour
     public float defaultHeight = 2f;
     public float crouchHeight = 1f;
     public float crouchSpeed = 3f;
+    public float speed = 0.0f;
 
+    [SerializeField]
     private Vector3 moveDirection = Vector3.zero;
+
     private float rotationX = 0;
     private CharacterController characterController;
 
@@ -30,6 +33,11 @@ public class PlayerMovement : MonoBehaviour
         Cursor.visible = false;
     }
 
+    float getMoveSpeed()
+    {
+        return speed;
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -41,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
         float curSpeedY = canMove ? (isRunning ? runSpeed : walkSpeed) * Input.GetAxis("Horizontal") : 0;
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
-
+        speed = moveDirection.magnitude; 
         if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
         {
             moveDirection.y = jumpPower;
