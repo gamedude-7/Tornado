@@ -1,17 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.17f1 (4fc78088f837) revision 5228416'; Using compiler version '192829333'; Build Type 'Release'
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 32696 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
 F:\Program Files\2022.3.17f1\Editor\Unity.exe
 =======
+=======
+>>>>>>> Stashed changes
 OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 32549 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Unity.exe
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 -adb2
 -batchMode
@@ -19,6 +25,7 @@ C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 F:/Tornado Unity/Tornado
 -logFile
@@ -28,6 +35,8 @@ Logs/AssetImportWorker1.log
 Successfully changed project path to: F:/Tornado Unity/Tornado
 F:/Tornado Unity/Tornado
 =======
+=======
+>>>>>>> Stashed changes
 C:/Users/Jason/Tornado/Tornado
 -logFile
 Logs/AssetImportWorker1.log
@@ -35,6 +44,9 @@ Logs/AssetImportWorker1.log
 51870
 Successfully changed project path to: C:/Users/Jason/Tornado/Tornado
 C:/Users/Jason/Tornado/Tornado
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
@@ -67,6 +79,7 @@ C:/Users/Jason/Tornado/Tornado
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Player connection [23088] Host "[IP] 192.168.1.71 [Port] 0 [Flags] 2 [Guid] 1606167784 [EditorId] 1606167784 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I0HPQOV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
@@ -102,6 +115,8 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.252 seconds
 Domain Reload Profiling: 571ms
 =======
+=======
+>>>>>>> Stashed changes
 Player connection [20924] Host "[IP] 192.168.2.11 [Port] 0 [Flags] 2 [Guid] 625551505 [EditorId] 625551505 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ROUA32C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [20924] Host "[IP] 192.168.2.11 [Port] 0 [Flags] 2 [Guid] 625551505 [EditorId] 625551505 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ROUA32C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
@@ -135,6 +150,9 @@ Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.262 seconds
 Domain Reload Profiling: 573ms
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	BeginReloadAssembly (94ms)
 		ExecutionOrderSort (0ms)
@@ -142,6 +160,7 @@ Domain Reload Profiling: 573ms
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (11ms)
@@ -166,6 +185,8 @@ Domain Reload Profiling: 573ms
 			ProcessInitializeOnLoadAttributes (138ms)
 			ProcessInitializeOnLoadMethodAttributes (44ms)
 =======
+=======
+>>>>>>> Stashed changes
 	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (49ms)
@@ -188,6 +209,9 @@ Domain Reload Profiling: 573ms
 			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (139ms)
 			ProcessInitializeOnLoadMethodAttributes (51ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -196,6 +220,7 @@ Domain Reload Profiling: 573ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 - Loaded All Assemblies, in  0.556 seconds
 Refreshing native plugins compatible for Editor in 8.72 ms, found 5 plugins.
@@ -244,6 +269,8 @@ Unloading 100 unused Assets / (96.2 KB). Loaded Objects now: 3650.
 Memory consumption went from 128.4 MB to 128.3 MB.
 Total: 3.121900 ms (FindLiveObjects: 0.287300 ms CreateObjectMapping: 0.275600 ms MarkObjects: 2.410000 ms  DeleteObjects: 0.148000 ms)
 =======
+=======
+>>>>>>> Stashed changes
 - Loaded All Assemblies, in  0.502 seconds
 Refreshing native plugins compatible for Editor in 10.08 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
@@ -307,6 +334,9 @@ Unloading 3258 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 100 unused Assets / (96.4 KB). Loaded Objects now: 3651.
 Memory consumption went from 128.5 MB to 128.4 MB.
 Total: 8.520800 ms (FindLiveObjects: 0.147100 ms CreateObjectMapping: 0.066500 ms MarkObjects: 8.112400 ms  DeleteObjects: 0.194000 ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -323,6 +353,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Received Import Request.
   Time since last request: 1012.376830 seconds.
@@ -642,6 +673,8 @@ Unloading 90 unused Assets / (69.4 KB). Loaded Objects now: 3671.
 Memory consumption went from 134.6 MB to 134.5 MB.
 Total: 3.364900 ms (FindLiveObjects: 0.275600 ms CreateObjectMapping: 0.355700 ms MarkObjects: 2.636000 ms  DeleteObjects: 0.096700 ms)
 =======
+=======
+>>>>>>> Stashed changes
 Received Prepare
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  0.337 seconds
@@ -1746,6 +1779,9 @@ Unloading 3238 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 91 unused Assets / (70.3 KB). Loaded Objects now: 3707.
 Memory consumption went from 151.6 MB to 151.5 MB.
 Total: 7.742200 ms (FindLiveObjects: 0.194100 ms CreateObjectMapping: 0.074100 ms MarkObjects: 7.348300 ms  DeleteObjects: 0.124000 ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 Prepare: number of updated asset objects reloaded= 0
@@ -1766,6 +1802,7 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  0.347 seconds
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 8.95 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
@@ -1812,6 +1849,8 @@ Unloading 90 unused Assets / (69.4 KB). Loaded Objects now: 3674.
 Memory consumption went from 136.5 MB to 136.5 MB.
 Total: 3.454200 ms (FindLiveObjects: 0.381200 ms CreateObjectMapping: 0.261900 ms MarkObjects: 2.715200 ms  DeleteObjects: 0.094900 ms)
 =======
+=======
+>>>>>>> Stashed changes
 Refreshing native plugins compatible for Editor in 10.32 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -1873,6 +1912,9 @@ Unloading 3238 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 91 unused Assets / (70.3 KB). Loaded Objects now: 3711.
 Memory consumption went from 153.5 MB to 153.5 MB.
 Total: 9.383100 ms (FindLiveObjects: 0.187000 ms CreateObjectMapping: 0.076800 ms MarkObjects: 8.994300 ms  DeleteObjects: 0.124000 ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 Prepare: number of updated asset objects reloaded= 0
@@ -1892,6 +1934,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 - Loaded All Assemblies, in  0.378 seconds
 Refreshing native plugins compatible for Editor in 10.08 ms, found 5 plugins.
@@ -1922,6 +1965,8 @@ Domain Reload Profiling: 1138ms
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (407ms)
 =======
+=======
+>>>>>>> Stashed changes
 - Loaded All Assemblies, in  0.346 seconds
 Refreshing native plugins compatible for Editor in 11.43 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
@@ -1967,12 +2012,16 @@ Domain Reload Profiling: 1463ms
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (532ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (46ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			ProcessInitializeOnLoadAttributes (326ms)
 			ProcessInitializeOnLoadMethodAttributes (25ms)
@@ -1987,6 +2036,8 @@ Unloading 90 unused Assets / (69.4 KB). Loaded Objects now: 3677.
 Memory consumption went from 138.5 MB to 138.4 MB.
 Total: 2.914300 ms (FindLiveObjects: 0.282800 ms CreateObjectMapping: 0.257400 ms MarkObjects: 2.281600 ms  DeleteObjects: 0.091500 ms)
 =======
+=======
+>>>>>>> Stashed changes
 			ProcessInitializeOnLoadAttributes (452ms)
 			ProcessInitializeOnLoadMethodAttributes (18ms)
 			AfterProcessingInitializeOnLoad (6ms)
@@ -4400,6 +4451,9 @@ Unloading 3238 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 91 unused Assets / (70.4 KB). Loaded Objects now: 3835.
 Memory consumption went from 213.2 MB to 213.1 MB.
 Total: 9.599800 ms (FindLiveObjects: 0.174400 ms CreateObjectMapping: 0.069000 ms MarkObjects: 9.250500 ms  DeleteObjects: 0.104800 ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 Prepare: number of updated asset objects reloaded= 0
