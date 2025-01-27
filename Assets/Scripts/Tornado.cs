@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
 
 public class Tornado : MonoBehaviour
 {
+    
+    public TMP_Text text;
+    float num = 5;
     float tornadoVelocity;
     float accelStrengthMax = 20.0f;
     float velStrengthMax = 10.0f;
@@ -19,6 +23,7 @@ public class Tornado : MonoBehaviour
     float velStrength = 1.475855f;
     CapsuleCollider cylinder;
     string name;
+    bool flag = false;
 
     void OnTriggerEnter(Collider o)
     {
@@ -30,19 +35,34 @@ public class Tornado : MonoBehaviour
             prefabPos = o.transform.position;
             prefabPos.y = transform.position.y;
             tornadoRadius = Mathf.Abs((o.transform.position - transform.position).magnitude);
-
-            o.gameObject.GetComponent<Person>().Scream();
-          
+            o.gameObject.GetComponent<Rigidbody>().isKinematic = false;
+            o.gameObject.GetComponent<Person>().Scream();            
         }
     }
 
     void OnTriggerExit(Collider o)
     {
-        //if (o.gameObject.name.Contains(MainMenu.playerNameInput))
-        //{
-            insideTornado = false;
-        //name = "";
-        //}
+        if (o.gameObject.name.Contains(name))
+        { 
+            if (insideTornado) 
+            {  
+                if (flag)
+                { 
+                    num--;
+                }
+                flag = !flag;
+                if (num == 0)
+                {
+                    text.text = "YOU WIN";
+                }
+                else
+                {
+                    text.text = num.ToString();
+                }
+                insideTornado = false;
+                name = "";
+            }
+        }
     }
 
 
@@ -118,11 +138,13 @@ public class Tornado : MonoBehaviour
                 if (!string.IsNullOrEmpty(name))
                 {
                     
-                    if (go.gameObject.name == name)
+                    if (go.gameObject.name == name && go.gameObject.transform.position.y > 1000)
                     {                        
                         go.gameObject.GetComponent<Rigidbody>().freezeRotation = true;
                         Destroy(go);
                         name = "";
+
+                        break;
                     }
                 }
             }
