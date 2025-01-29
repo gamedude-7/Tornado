@@ -25,6 +25,13 @@ public class Person : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
+        if (!transform.GetComponent<Rigidbody>().freezeRotation)
+        { 
+            this.enabled = false;
+            return;
+        }
+      
         if (tornado != null)
         {
             

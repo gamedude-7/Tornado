@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Jason\\Tornado\\Tornado\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|C:\\Users\\Jason\\Tornado\\Tornado\\assets\\scripts\\tornado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tornado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|C:\\Users\\Jason\\Tornado\\Tornado\\assets\\scripts\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|c:\\users\\jason\\tornado\\tornado\\assets\\scripts\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|c:\\users\\jason\\tornado\\tornado\\assets\\scripts\\tornado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tornado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|C:\\Users\\Jason\\Tornado\\Tornado\\assets\\scripts\\playermovemnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,26 +30,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\Person.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Person.cs",
               "ToolTip": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\Person.cs",
               "RelativeToolTip": "Assets\\Scripts\\Person.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwC4AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDUAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T04:18:40.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Tornado.cs",
               "DocumentMoniker": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\Tornado.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Tornado.cs",
               "ToolTip": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\Tornado.cs",
               "RelativeToolTip": "Assets\\Scripts\\Tornado.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAABkAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAIBJwBkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T23:17:29.846Z",
               "EditorCaption": ""
@@ -64,8 +64,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovemnet.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAADwvzIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T22:48:33.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T22:48:33.3Z"
             }
           ]
         }
