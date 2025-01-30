@@ -332,6 +332,10 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/FMODUnityResonance.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/FMODUnityResonanceEditor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.2D.Sprite.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.AI.Navigation.Editor.ConversionSystem.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.AI.Navigation.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.AI.Navigation.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.AI.Navigation.Updater.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -360,6 +364,7 @@
 "Assets/Scripts/Person.cs"
 "Assets/Scripts/PlayerMovemnet.cs"
 "Assets/Scripts/Tornado.cs"
+"Assets/Scripts/Waypoint.cs"
 -langversion:9.0
 
 /deterministic
