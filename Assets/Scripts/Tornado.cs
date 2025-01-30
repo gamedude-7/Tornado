@@ -123,9 +123,9 @@ public class Tornado : MonoBehaviour
                         tornadoVelocity = velStrength;
                         tornadoAcceleration = tornadoVelocity * tornadoVelocity / tornadoRadius; // (a = v^2)/r
                         go.gameObject.GetComponent<Rigidbody>().freezeRotation = false;
-                        Debug.Log("centripedalAcceleration: " + centripedalAcceleration);
-                        Debug.Log("tornadoAcceleration: " + tornadoAcceleration);
-                        Debug.Log("accelStrength: " + accelStrength);
+                        //Debug.Log("centripedalAcceleration: " + centripedalAcceleration);
+                        //Debug.Log("tornadoAcceleration: " + tornadoAcceleration);
+                        //Debug.Log("accelStrength: " + accelStrength);
                         Debug.DrawRay(go.gameObject.transform.position, centripedalAcceleration.normalized * tornadoAcceleration);
                         Debug.DrawRay(go.gameObject.transform.position, tangentVelocity.normalized * tornadoVelocity);
                         go.gameObject.GetComponent<Rigidbody>().AddForce(centripedalAcceleration.normalized * tornadoAcceleration * Time.fixedDeltaTime, ForceMode.Acceleration);
@@ -147,25 +147,7 @@ public class Tornado : MonoBehaviour
                 }
             }
         }        
-        //else
-        //{
-        //    //foreach (Transform go in FindObjectsOfType(Character))
-        //    foreach (GameObject go in GameObject.FindGameObjectsWithTag("Box"))
-        //    {                
-        //        if (!string.IsNullOrEmpty(name))
-        //        {
-                    
-        //            if (go.gameObject.name == name && go.gameObject.transform.position.y > 1000)
-        //            {                        
-        //                go.gameObject.GetComponent<Rigidbody>().freezeRotation = true;
-        //                Destroy(go);
-        //                name = "";
-
-        //                break;
-        //            }
-        //        }
-        //    }
-        //}
+ 
     }
 
 }
