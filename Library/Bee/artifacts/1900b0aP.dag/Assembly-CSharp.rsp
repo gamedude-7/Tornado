@@ -301,6 +301,7 @@
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/FMODUnity.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/FMODUnityResonance.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.AI.Navigation.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.ref.dll"
@@ -312,6 +313,8 @@
 "Assets/Scripts/Person.cs"
 "Assets/Scripts/PlayerMovemnet.cs"
 "Assets/Scripts/Tornado.cs"
+"Assets/Scripts/Waypoint.cs"
+"Assets/Unity.VisualScripting.Generated/VisualScripting.Core/AotStubs.cs"
 -langversion:9.0
 
 /deterministic

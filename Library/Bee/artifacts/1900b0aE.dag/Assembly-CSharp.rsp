@@ -363,6 +363,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Person.cs"
 "Assets/Scripts/PlayerMovemnet.cs"
+"Assets/Scripts/StartMenu.cs"
 "Assets/Scripts/Tornado.cs"
 "Assets/Scripts/Waypoint.cs"
 -langversion:9.0
