@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Waypoint.cs" />
+    <Compile Include="Assets\Scripts\Citizen.cs" />
     <Compile Include="Assets\Scripts\Tornado.cs" />
     <Compile Include="Assets\Scripts\StartMenu.cs" />
     <Compile Include="Assets\Scripts\Person.cs" />

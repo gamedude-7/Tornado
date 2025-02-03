@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Jason\\Tornado\\Tornado\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|c:\\users\\jason\\tornado\\tornado\\assets\\scripts\\citizen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\citizen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|c:\\users\\jason\\tornado\\tornado\\assets\\scripts\\tornado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tornado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|C:\\Users\\Jason\\Tornado\\Tornado\\assets\\scripts\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|C:\\Users\\Jason\\Tornado\\Tornado\\assets\\scripts\\endcredits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\endcredits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|C:\\Users\\Jason\\Tornado\\Tornado\\assets\\scripts\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|C:\\Users\\Jason\\Tornado\\Tornado\\assets\\scripts\\playermovemnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,12 +47,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Citizen.cs",
+              "DocumentMoniker": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\Citizen.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Citizen.cs",
+              "ToolTip": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\Citizen.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Citizen.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T22:43:39.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Tornado.cs",
               "DocumentMoniker": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\Tornado.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Tornado.cs",
               "ToolTip": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\Tornado.cs",
               "RelativeToolTip": "Assets\\Scripts\\Tornado.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAADgv2YAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwEcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T23:17:29.846Z",
               "EditorCaption": ""
@@ -61,13 +78,13 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\EndCredits.cs",
               "ToolTip": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\EndCredits.cs",
               "RelativeToolTip": "Assets\\Scripts\\EndCredits.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-31T01:48:12.462Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "StartMenu.cs",
               "DocumentMoniker": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\StartMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StartMenu.cs",
@@ -79,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Waypoint.cs",
               "DocumentMoniker": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\Waypoint.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Waypoint.cs",
@@ -91,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\Person.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Person.cs",
@@ -103,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerMovemnet.cs",
               "DocumentMoniker": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\PlayerMovemnet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovemnet.cs",

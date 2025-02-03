@@ -51,7 +51,7 @@ public class Tornado : MonoBehaviour
             tornadoRadius = Mathf.Abs((o.transform.position - transform.position).magnitude);
             //o.gameObject.GetComponent<Rigidbody>().isKinematic = false;
             o.gameObject.GetComponent<Rigidbody>().freezeRotation = false;            
-            o.gameObject.GetComponent<Person>().Scream();
+            o.gameObject.GetComponent<Citizen>().Scream();
             num = 10 - names.Count;
             //}
             //flag = !flag;
@@ -163,8 +163,9 @@ public class Tornado : MonoBehaviour
                     if (go.gameObject.name == name)
                     {
                         centripedalAcceleration = centerOfTornado.transform.position - go.transform.position;
-                        UnityEngine.Debug.DrawRay(go.gameObject.transform.position, centripedalAcceleration.normalized * accelStrength);
-                        go.gameObject.GetComponent<Rigidbody>().AddForce(centripedalAcceleration.normalized * accelStrength, ForceMode.Acceleration);
+                        Vector3 direction = centripedalAcceleration.normalized * accelStrength * accelStrength;//go.gameObject.GetComponent<Rigidbody>().mass;
+                        UnityEngine.Debug.DrawRay(go.gameObject.transform.position, direction);
+                        go.gameObject.GetComponent<Rigidbody>().AddForce(direction, ForceMode.Acceleration);
                     }
                 }
             }
