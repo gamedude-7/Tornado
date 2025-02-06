@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Jason\\Tornado\\Tornado\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|c:\\users\\jason\\tornado\\tornado\\assets\\scripts\\citizen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\citizen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|c:\\users\\jason\\tornado\\tornado\\assets\\scripts\\tornado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tornado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|C:\\Users\\Jason\\Tornado\\Tornado\\assets\\scripts\\tornado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tornado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|C:\\Users\\Jason\\Tornado\\Tornado\\assets\\scripts\\citizen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\citizen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|C:\\Users\\Jason\\Tornado\\Tornado\\assets\\scripts\\playermovemnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Citizen.cs",
               "DocumentMoniker": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\Citizen.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Citizen.cs",
@@ -54,20 +54,20 @@
               "RelativeToolTip": "Assets\\Scripts\\Citizen.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAowEgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T22:43:39.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-02T22:43:39.019Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Tornado.cs",
               "DocumentMoniker": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\Tornado.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Tornado.cs",
               "ToolTip": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\Tornado.cs",
               "RelativeToolTip": "Assets\\Scripts\\Tornado.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAmwKUAAABvAAAAAAAAAA==",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAYwK8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T23:17:29.846Z"
+              "WhenOpened": "2025-01-18T23:17:29.846Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
