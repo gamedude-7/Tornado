@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tornado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|C:\\Users\\Jason\\Tornado\\Tornado\\assets\\scripts\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|C:\\Users\\Jason\\Tornado\\Tornado\\assets\\scripts\\citizen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\citizen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|C:\\Users\\Jason\\Tornado\\Tornado\\assets\\scripts\\playermovemnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovemnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|C:\\Users\\Jason\\Tornado\\Tornado\\assets\\scripts\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69397F40-13DC-DC32-8196-BB94C43BA9D6}|Assembly-CSharp.csproj|C:\\Users\\Jason\\Tornado\\Tornado\\assets\\scripts\\endcredits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Citizen.cs",
               "DocumentMoniker": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\Citizen.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Citizen.cs",
@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Tornado.cs",
               "ToolTip": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\Tornado.cs",
               "RelativeToolTip": "Assets\\Scripts\\Tornado.cs",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAYwK8AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAhwJsAAACFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T23:17:29.846Z",
               "EditorCaption": ""
@@ -107,19 +107,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\Person.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Person.cs",
               "ToolTip": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\Person.cs",
               "RelativeToolTip": "Assets\\Scripts\\Person.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T04:18:40.801Z"
+              "WhenOpened": "2025-01-21T04:18:40.801Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlayerMovemnet.cs",
               "DocumentMoniker": "C:\\Users\\Jason\\Tornado\\Tornado\\Assets\\Scripts\\PlayerMovemnet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovemnet.cs",

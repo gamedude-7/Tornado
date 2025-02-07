@@ -53,7 +53,7 @@ public class Tornado : MonoBehaviour
             insideTornado = true;
             prefabPos = o.transform.position;
             prefabPos.y = transform.position.y;
-            initalRadius = Mathf.Abs((o.transform.position - transform.position).magnitude);
+            initalRadius = Mathf.Abs((o.transform.position - centerOfTornado.transform.position).magnitude);
             angularMomentum = o.gameObject.GetComponent<Rigidbody>().mass * velStrength * tornadoRadius;
             o.gameObject.GetComponent<Rigidbody>().freezeRotation = false;            
             o.gameObject.GetComponent<Person>().Scream();
@@ -141,7 +141,7 @@ public class Tornado : MonoBehaviour
 
             if (insideTornado)
             {
-                tornadoRadius = Mathf.Abs((go.transform.position - transform.position).magnitude);
+                tornadoRadius = Mathf.Abs((go.transform.position - centerOfTornado.transform.position).magnitude);
                 foreach (string name in names)
                 { 
                     if (go.gameObject.name == name)
@@ -157,7 +157,7 @@ public class Tornado : MonoBehaviour
                         UnityEngine.Debug.DrawRay(go.gameObject.transform.position, tangentVelocity.normalized * tornadoVelocity);
                         go.gameObject.GetComponent<Rigidbody>().AddForce(centripedalAcceleration.normalized * tornadoAcceleration * Time.fixedDeltaTime, ForceMode.Acceleration);
                         go.gameObject.GetComponent<Rigidbody>().AddForce(tangentVelocity.normalized * tornadoVelocity * Time.fixedDeltaTime, ForceMode.Acceleration);
-                        liftForce = mass * 9.81f * transform.position.y - go.gameObject.GetComponent<Rigidbody>().mass * 9.81f * go.gameObject.transform.position.y;
+                        liftForce = mass * 9.81f * centerOfTornado.transform.position.y - go.gameObject.GetComponent<Rigidbody>().mass * 9.81f * go.gameObject.transform.position.y;
                         go.gameObject.GetComponent<Rigidbody>().AddForce(Vector3.up * liftForce * Time.fixedDeltaTime, ForceMode.Acceleration);
                     }
                 }
